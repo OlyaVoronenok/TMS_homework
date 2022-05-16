@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "e95e7236-3f3d-433c-b0be-abefe40b6dfb",
+		"name": "TD-Voronenok",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NewUser(doregister)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "TessstDlyaDZ@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Tess04ka",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "789456123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/doregister",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"doregister"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewUser(createuser)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"P04taDlyaDZ@mail.ru\",\r\n    \"name\": \"Yosh1\",\r\n    \"tasks\": [11, 12],\r\n    \"companies\": [15, 20]\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/createuser",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"createuser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddAvatar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "avatar",
+							"type": "file",
+							"src": "/G:/А/Прикольчики/Memes/mrQ4jpB3CQU.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/addavatar?email=P04taDlyaDZ@mail.ru",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"addavatar"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "P04taDlyaDZ@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Company15(getcompany)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/getcompany?id_company=15",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"getcompany"
+					],
+					"query": [
+						{
+							"key": "id_company",
+							"value": "15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewCompany(createcompany)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"company_name\": \"TestDlyaDZ\",\r\n  \"company_type\": \"ООО\",\r\n  \"company_users\": [\"olya.voronenokkk@gmail.com\", \"P04taDlyaDZ@mail.ru\"],\r\n  \"email_owner\": \"P04taDlyaDZ@mail.ru\" \r\n} "
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/createcompany",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"createcompany"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Info(getuserfull)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/getuserfull?email=P04taDlyaDZ@mail.ru",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"getuserfull"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "P04taDlyaDZ@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdUser(fullupdateuser)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Yoshiku\",\r\n    \"tasks\": [138],\r\n    \"companies\": [20, 104, 15],\r\n    \"hobby\": \"picking flowers\",\r\n    \"adres\": \"Minsk\",\r\n    \"name1\": \"Yoshi\",\r\n    \"surname1\": \"San\",\r\n    \"fathername1\": \"none\",\r\n    \"cat\": \"nightmare\",\r\n    \"dog\": \"Adamine\",\r\n    \"parrot\": \"Tess\",\r\n    \"cavy\": \"Sea\",\r\n    \"hamster\": \"Homa\",\r\n    \"squirrel\": \"Kapaldi\",\r\n    \"phone\": \"+789999566465\",\r\n    \"inn\": \"123456789123\",\r\n    \"gender\": \"f\",\r\n    \"birthday\": \"12.05.2000\",\r\n    \"password\": \"789456123\",\r\n    \"date_start\": \"01.05.1970\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/fullupdateuser?email=P04taDlyaDZ@mail.ru",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"fullupdateuser"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "P04taDlyaDZ@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewTask(createtask)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"task_title\": \"Сбор цветов\",\r\n    \"task_description\": \"aaaa\",\r\n    \"email_owner\": \"P04taDlyaDZ@mail.ru\",\r\n    \"email_assign\": \"P04taDlyaDZ@mail.ru\"\r\n\r\n}"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/createtask",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"createtask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletedTask(deletetask)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email_owner\": \"P04taDlyaDZ@mail.ru\",\r\n    \"email_assign\": \"P04taDlyaDZ@mail.ru\",\r\n    \"task_id\": \"243\"\r\n}"
+				},
+				"url": {
+					"raw": "http://users.bugred.ru/tasks/rest/deletetask",
+					"protocol": "http",
+					"host": [
+						"users",
+						"bugred",
+						"ru"
+					],
+					"path": [
+						"tasks",
+						"rest",
+						"deletetask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
