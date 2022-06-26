@@ -1,0 +1,1389 @@
+--------- beginning of kernel
+06-26 11:15:22.897     0     0 E init    : Failed to copy /avb into /metadata/gsi/dsu/avb/: No such file or directory
+06-26 11:15:23.925     0     0 E init    : [libfs_avb]Device path not found: /dev/block/by-name/system
+06-26 11:15:24.942     0     0 E init    : [libfs_avb]Device path not found: /dev/block/by-name/system
+06-26 11:15:25.257     0     0 E init    : Init cannot set 'ro.kernel.ndns' to '4': Read-only property was already set
+06-26 11:15:25.560     0     0 E cgroup1 : Unknown subsys name 'schedtune'
+06-26 11:15:25.561     0     0 E libprocessgroup: Failed to mount schedtune cgroup: Invalid argument
+--------- beginning of system
+06-26 11:15:27.566     0     0 E init    : [libfs_mgr]mount_with_alternatives(): skipping mount due to invalid magic, mountpoint=/data blk_dev=/dev/block/vdc rec[4].fs_type=ext4
+06-26 11:15:27.884     0     0 E selinux : SELinux:  Could not stat /sys/kernel/debug: No such file or directory.
+06-26 11:15:27.886     0     0 E selinux :  
+06-26 11:15:27.943     0     0 E init    : Unable to set property 'ro.crypto.state' from uid:0 gid:0 pid:1: Read-only property was already set
+06-26 11:15:28.012     0     0 E init    : Failed to set encryption policy of /data/misc to b40d59fdc276b461a1d70c6dacafe7b2 v2 modes 1/4 flags 0x2: Directory not empty
+06-26 11:15:28.018     0     0 E logwrapper: executing ls failed: Permission denied
+06-26 11:15:28.019     0     0 E logwrapper:  
+06-26 11:15:28.034     0     0 E init    : ls -laZ /data/misc returned failure: 255
+06-26 11:15:28.036     0     0 E init    : Setting b40d59fdc276b461a1d70c6dacafe7b2 policy on /data/misc failed!
+06-26 11:15:28.038     0     0 E init    : Rebooting into recovery
+06-26 11:15:28.157     0     0 E init    : Failed to set encryption policy of /data/system to b40d59fdc276b461a1d70c6dacafe7b2 v2 modes 1/4 flags 0x2: Directory not empty
+06-26 11:15:28.161     0     0 E logwrapper: executing ls failed: Permission denied
+06-26 11:15:28.163     0     0 E logwrapper:  
+06-26 11:15:28.175     0     0 E init    : ls -laZ /data/system returned failure: 255
+06-26 11:15:28.176     0     0 E init    : Setting b40d59fdc276b461a1d70c6dacafe7b2 policy on /data/system failed!
+06-26 11:15:28.178     0     0 E init    : Rebooting into recovery
+06-26 11:15:29.212     0     0 E selinux : SELinux:  Could not stat /data/dalvik-cache/arm: No such file or directory.
+06-26 11:15:29.214     0     0 E selinux :  
+06-26 11:15:29.215     0     0 E selinux : SELinux:  Could not stat /data/dalvik-cache/arm64: No such file or directory.
+06-26 11:15:29.216     0     0 E selinux :  
+06-26 11:15:29.217     0     0 E selinux : SELinux:  Could not stat /data/dalvik-cache/mips: No such file or directory.
+06-26 11:15:29.219     0     0 E selinux :  
+06-26 11:15:29.219     0     0 E selinux : SELinux:  Could not stat /data/dalvik-cache/mips64: No such file or directory.
+06-26 11:15:29.221     0     0 E selinux :  
+06-26 11:15:29.224     0     0 E selinux : SELinux:  Could not stat /data/dalvik-cache/x86_64: No such file or directory.
+06-26 11:15:29.226     0     0 E selinux :  
+06-26 11:15:29.283     0     0 E init    : Could not set 'ro.logd.size' to '2M' in /data/local.prop: Read-only property was already set
+06-26 11:15:29.486     0     0 E init    : failed to write pid to files: couldn't write 299 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+06-26 11:15:29.512     0     0 E ueventd : firmware: could not find firmware for regulatory.db
+06-26 11:15:29.515     0     0 E ueventd : firmware: attempted /etc/firmware/regulatory.db, open failed: No such file or directory
+06-26 11:15:29.519     0     0 E ueventd : firmware: attempted /odm/firmware/regulatory.db, open failed: No such file or directory
+06-26 11:15:29.525     0     0 E ueventd : firmware: attempted /vendor/firmware/regulatory.db, open failed: No such file or directory
+06-26 11:15:29.528     0     0 E ueventd : firmware: attempted /firmware/image/regulatory.db, open failed: No such file or directory
+06-26 11:15:29.814     0     0 E init    : Unable to set property 'ro.hardware.egl' from uid:0 gid:0 pid:147: Read-only property was already set
+06-26 11:15:30.345     0     0 E init    : Could not start service 'vendor_flash_recovery' as part of class 'main': Cannot find '/vendor/bin/install-recovery.sh': No such file or directory
+06-26 11:15:30.883   452   507 E BootAnimation: Could not add watch for /data/system: Permission denied
+06-26 11:15:32.900     0     0 E apexd   : Can't open /system_ext/apex for reading : No such file or directory
+06-26 11:15:32.901     0     0 E apexd   : Can't open /product/apex for reading : No such file or directory
+06-26 11:15:32.903     0     0 E apexd   : Can't open /vendor/apex for reading : No such file or directory
+06-26 11:15:35.341   510   510 E PackageManager: Shared lib without setting: SharedLibraryInfo{name:com.google.android.trichromelibrary, type:static, version:410410681}
+06-26 11:15:35.416   426   426 E iorapd  : Cannot get package manager service!
+--------- beginning of main
+06-26 11:15:35.468   510   525 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:35.478   510   525 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:35.516   422   433 E idmap2d : failed to parse idmap header
+06-26 11:15:35.518   422   433 E idmap2d : no resources were overlaid
+06-26 11:15:35.589   510   543 E BluetoothAdapter: Bluetooth binder is null
+06-26 11:15:35.593   510   570 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:35.630   510   580 E SystemServer: Unable to preload default resources
+06-26 11:15:35.697   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:35.761   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:35.767   510   510 E IorapForwardingService: No service published for: iorapd
+06-26 11:15:35.767   510   510 E IorapForwardingService: android.os.ServiceManager$ServiceNotFoundException: No service published for: iorapd
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:153)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.provideIorapRemote(IorapForwardingService.java:124)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigureLocked(IorapForwardingService.java:276)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigure(IorapForwardingService.java:258)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.retryConnectToRemoteAndConfigure(IorapForwardingService.java:232)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.onStart(IorapForwardingService.java:170)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:178)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.server.SystemServiceManager.startService(SystemServiceManager.java:165)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:1223)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.server.SystemServer.run(SystemServer.java:592)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.server.SystemServer.main(SystemServer.java:408)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:15:35.767   510   510 E IorapForwardingService: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:925)
+06-26 11:15:35.767   510   510 E IorapForwardingService: connectToRemoteAndConfigure - null iorap remote. check for Log.wtf?
+06-26 11:15:35.774   510   510 E IntegrityFileManager: Error creating staging and rules directory
+06-26 11:15:36.065   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.066   510   510 E WifiClientModeImpl: getWifiLinkLayerStats called without an interface
+06-26 11:15:36.261   510   534 E UsbDeviceManager: failed to write to /sys/class/android_usb/android0/f_rndis/ethaddr
+06-26 11:15:36.268   510   534 E UsbDeviceManagerJNI: could not open control for mtp No such file or directory
+06-26 11:15:36.268   510   534 E UsbDeviceManager: Failed to open control for mtp
+06-26 11:15:36.268   510   534 E UsbDeviceManagerJNI: could not open control for ptp No such file or directory
+06-26 11:15:36.268   510   534 E UsbDeviceManager: Failed to open control for ptp
+06-26 11:15:36.275   510   534 E UsbDeviceManagerJNI: could not open /dev/usb_accessory
+06-26 11:15:36.279   336   336 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+06-26 11:15:36.279   336   622 E android.hardware.usb@1.0-service: creating thread
+06-26 11:15:36.280   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.312   473   473 E FingerprintHal: Could not load fingerprints from storage at /data/vendor_de/0/fpdata/emufp.bin; it has not yet been created.
+06-26 11:15:36.319   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.355   510   510 E AutofillManagerServiceImpl: Bad service name: com.google.android.gms/.autofill.service.AutofillService
+06-26 11:15:36.358   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.382   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.393   510   510 E TestHarnessModeService: Failed to start Test Harness Mode; no implementation of PersistentDataBlockManagerInternal was bound!
+06-26 11:15:36.394   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.406   510   601 E SupplicantStaIfaceHal: Can't call setDebugParams, ISupplicant is null
+06-26 11:15:36.406   510   601 E HostapdHal: Can't call setDebugParams, IHostapd is null
+06-26 11:15:36.421   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.425   510   510 E HistoricalRegistry: Interaction before persistence initialized
+06-26 11:15:36.439   339   339 E android.hardware.wifi@1.0-service: Failed to register radio mode change callback
+06-26 11:15:36.442   510   510 E DisplayPowerController: failed to set up display white-balance: java.lang.IllegalStateException: cannot find sensor com.google.sensor.color
+06-26 11:15:36.429     0     0 E init    : Unable to set property 'vendor.wlan.firmware.version' from uid:1010 gid:1010 pid:339: SELinux permission check failed
+06-26 11:15:36.448     0     0 E init    : Unable to set property 'vendor.wlan.driver.version' from uid:1010 gid:1010 pid:339: SELinux permission check failed
+06-26 11:15:36.460   339   339 E android.hardware.wifi@1.0-service: Failed to set DFS flag; DFS channels may be unavailable.
+06-26 11:15:36.487   510   601 E SupplicantStaIfaceHal: checkHalVersionByInterfaceName: called but mServiceManager is null
+06-26 11:15:36.488   510   601 E SupplicantStaIfaceHal: checkHalVersionByInterfaceName: called but mServiceManager is null
+06-26 11:15:36.488   510   601 E SupplicantStaIfaceHal: Method getKeyMgmtCapabilities is not supported in existing HAL
+06-26 11:15:36.495   510   601 E SupplicantStaIfaceHal: checkHalVersionByInterfaceName: called but mServiceManager is null
+06-26 11:15:36.505   510   604 E WifiVendorHal: getBgScanCapabilities(l.674) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+06-26 11:15:36.583   510   510 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig: open failed: ENOENT (No such file or directory)
+06-26 11:15:36.583   510   510 E WallpaperManagerService: Unable to apply new wallpaper
+06-26 11:15:36.586   336   336 E android.hardware.usb@1.0-service: Failed to open /sys/class/dual_role_usb
+06-26 11:15:36.586   510   592 E UsbPortManager: port status enquiry failed
+06-26 11:15:36.666   510   601 E SupplicantStaIfaceHal: Can't call setupIface, ISupplicantStaIface is null
+06-26 11:15:36.688   510   510 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. is_supported is effectively a no-op
+06-26 11:15:36.752   510   604 E WifiScanningService: wifi driver loaded received while already loaded
+06-26 11:15:36.768   510   529 E IorapForwardingService: No service published for: iorapd
+06-26 11:15:36.768   510   529 E IorapForwardingService: android.os.ServiceManager$ServiceNotFoundException: No service published for: iorapd
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:153)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.provideIorapRemote(IorapForwardingService.java:124)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigureLocked(IorapForwardingService.java:276)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigure(IorapForwardingService.java:258)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.retryConnectToRemoteAndConfigure(IorapForwardingService.java:232)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.access$000(IorapForwardingService.java:58)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService$BinderConnectionHandler.handleMessage(IorapForwardingService.java:204)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-26 11:15:36.768   510   529 E IorapForwardingService: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+06-26 11:15:36.768   510   529 E IorapForwardingService: connectToRemoteAndConfigure - null iorap remote. check for Log.wtf?
+06-26 11:15:36.791   444   729 E OMXNodeInstance: getExtensionIndex(0xf46c0400:android.goldfish.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.794   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:36.794   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:36.795   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.795   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.798   510   527 E GnssBatchingProvider: Failed to initialize GNSS batching
+06-26 11:15:36.802   510   527 E GnssLocationProvider: IGnssConfiguration setBlacklist() failed.
+06-26 11:15:36.808   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.808   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.823   444   729 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.823   444   729 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.851   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.851   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.859   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:android.goldfish.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.870   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.870   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.872   444   444 E OMXNodeInstance: getExtensionIndex(0xf46c0400:android.goldfish.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.873   444   729 E OMXNodeInstance: getExtensionIndex(0xf46c0390:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.873   444   729 E OMXNodeInstance: getExtensionIndex(0xf46c0390:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.886   444   444 E OMXNodeInstance: getConfig(0xf46c0400:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+06-26 11:15:36.886   444   444 E OMXNodeInstance: getParameter(0xf46c0400:google.h263.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.890   444   729 E OMXNodeInstance: getConfig(0xf46c0400:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+06-26 11:15:36.890   444   729 E OMXNodeInstance: getParameter(0xf46c0400:google.mpeg4.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:36.895   444   729 E OMXNodeInstance: getConfig(0xf46c0400:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+06-26 11:15:36.896   444   729 E OMXNodeInstance: getParameter(0xf46c0400:google.vp8.encoder, ParamVideoIntraRefresh(0x6000006)) ERROR: UnsupportedIndex(0x8000101a)
+06-26 11:15:37.041   647   896 E bt_btif_storage: btif_storage_get_adapter_property: Controller not ready! Unable to return Bluetooth Address
+06-26 11:15:37.041   647   896 E BluetoothServiceJni: adapter_properties_callback: Status 1 is incorrect
+06-26 11:15:37.075   855   855 E CarrierIdProvider: read carrier list from ota pb failure: java.io.FileNotFoundException: /data/misc/carrierid/carrier_list.pb: open failed: ENOENT (No such file or directory)
+06-26 11:15:37.166   667   667 E NavigationModeController: updateCurrentInteractionMode: mode=0
+06-26 11:15:37.172   510   510 E WiredAccessoryManager: No state change.
+06-26 11:15:37.192   855   967 E android_os_HwBinder: Uncaught exception!
+06-26 11:15:37.193   510   510 E TrustManagerService: EXTRA_USER_HANDLE missing or invalid, value=0
+06-26 11:15:37.266   510   692 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.266   510   692 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.266   510   683 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.266   510   683 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.267   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.267   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.267   450   972 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.267   450   972 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.267   510   692 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+06-26 11:15:37.269   510   683 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.269   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.269   510   692 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.270   450   503 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+06-26 11:15:37.270   450   972 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.319   450   983 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.320   510   776 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.323   450   982 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.325   510   592 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.374   667   988 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.374   667   988 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.375   667   987 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.375   667   987 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.377   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.378   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.378   450   972 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.378   450   972 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.378   667   988 E ion     : ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+06-26 11:15:37.381   667   987 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.381   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.414   667   988 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.414   450   503 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.439   450   994 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.439   667   993 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.442   450   995 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.443   667   993 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.515   297   297 E bt      : system/bt/vendor_libs/test_vendor_lib/model/devices/device_properties.cc:83 DeviceProperties: Error reading controller properties from file.
+06-26 11:15:37.547   510  1016 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.548   510  1016 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.553   450  1015 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.553   450  1015 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.559   510  1016 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.559   450   450 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.569   510  1021 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.569   510  1021 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.572   450   966 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.573   450   966 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.576   510  1021 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.584   450   450 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.624   647   896 E bt_btif_storage: btif_storage_get_adapter_property: Controller ready!
+06-26 11:15:37.662   450  1024 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.663   510  1014 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.671   450  1028 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.671   510   776 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.798   510   529 E IorapForwardingService: No service published for: iorapd
+06-26 11:15:37.798   510   529 E IorapForwardingService: android.os.ServiceManager$ServiceNotFoundException: No service published for: iorapd
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at android.os.ServiceManager.getServiceOrThrow(ServiceManager.java:153)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.provideIorapRemote(IorapForwardingService.java:124)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigureLocked(IorapForwardingService.java:276)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.connectToRemoteAndConfigure(IorapForwardingService.java:258)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.retryConnectToRemoteAndConfigure(IorapForwardingService.java:232)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService.access$000(IorapForwardingService.java:58)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.google.android.startop.iorap.IorapForwardingService$BinderConnectionHandler.handleMessage(IorapForwardingService.java:204)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-26 11:15:37.798   510   529 E IorapForwardingService: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+06-26 11:15:37.803   510   529 E IorapForwardingService: connectToRemoteAndConfigure - null iorap remote. check for Log.wtf?
+06-26 11:15:37.805   667  1061 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.805   667  1061 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.805   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.806   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.808   667  1061 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.808   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.828   450  1062 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.829   667   993 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.856   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.856   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.857   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.857   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.861   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.861   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.862   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.862   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.862   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.862   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.862   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.862   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.863   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.863   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.864   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.864   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.864   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.864   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.864   510  1071 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.867   510  1071 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.870   450   997 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.870   450   997 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.870   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.870   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.872   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.872   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.872   510  1074 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.872   510  1074 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.873   510  1071 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.873   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.873   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.873   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.874   450   997 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.874   450   997 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.876   510  1074 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.878   450   501 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.886   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.886   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.886   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.886   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.886   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.886   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.889   647   647 E a2dp_vendor_aptx_encoder: A2DP_VendorLoadEncoderAptx: cannot open aptX encoder library libaptX_encoder.so: dlopen failed: library "libaptX_encoder.so" not found
+06-26 11:15:37.889   647   647 E a2dp_vendor_aptx: init: cannot load the encoder
+06-26 11:15:37.892   647   647 E a2dp_vendor_aptx_hd_encoder: A2DP_VendorLoadEncoderAptxHd: cannot open aptX-HD encoder library libaptXHD_encoder.so: dlopen failed: library "libaptXHD_encoder.so" not found
+06-26 11:15:37.893   647   647 E a2dp_vendor_aptx_hd: init: cannot load the encoder
+06-26 11:15:37.893   647   647 E a2dp_vendor_ldac_decoder: A2DP_VendorLoadDecoderLdac: cannot open LDAC decoder library libldacBT_bco.so: dlopen failed: library "libldacBT_bco.so" not found
+06-26 11:15:37.893   647   647 E a2dp_vendor_ldac: init: cannot load the decoder
+06-26 11:15:37.904   450  1073 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.904   510   544 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.912   450  1076 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:37.915   510   989 E FMQ     : grantorIdx must be less than 3
+06-26 11:15:38.073   647   647 E BluetoothPhonePolicy: autoConnect: most recently active a2dp device is null
+06-26 11:15:38.374   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.388   667   667 E libEGL  : validate_display:89 error 3001 (EGL_NOT_INITIALIZED)
+06-26 11:15:38.396   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.423   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.539   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.573   510   525 E WindowManager: Window Session Crash
+06-26 11:15:38.573   510   525 E WindowManager: java.lang.IllegalArgumentException: Requested window null does not exist
+06-26 11:15:38.573   510   525 E WindowManager: 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:5433)
+06-26 11:15:38.573   510   525 E WindowManager: 	at com.android.server.wm.Session.actionOnWallpaper(Session.java:356)
+06-26 11:15:38.573   510   525 E WindowManager: 	at com.android.server.wm.Session.setWallpaperZoomOut(Session.java:382)
+06-26 11:15:38.573   510   525 E WindowManager: 	at android.view.IWindowSession$Stub.onTransact(IWindowSession.java:1154)
+06-26 11:15:38.573   510   525 E WindowManager: 	at com.android.server.wm.Session.onTransact(Session.java:139)
+06-26 11:15:38.573   510   525 E WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+06-26 11:15:38.573   510   525 E WindowManager: 	at android.os.Binder.execTransact(Binder.java:1123)
+06-26 11:15:38.657   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.722   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.739   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.767   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.791   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.825   855   855 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+06-26 11:15:38.905   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:38.905   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:38.960   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:38.960   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:39.125  1132  1169 E SQLiteLog: (1) no such column: configTier in "SELECT configTier FROM Packages"
+06-26 11:15:39.201   510   530 E TestHarnessModeService: Failed to start Test Harness Mode; no implementation of PersistentDataBlockManagerInternal was bound!
+06-26 11:15:39.216   510   601 E WifiScoringParams: Invalid frequency(-1), using 5G as default rssi array
+06-26 11:15:39.240   510   530 E UserspaceRebootLogger: Userspace reboot is not supported.
+06-26 11:15:39.255   510   527 E AdbDebuggingManager: Expected keyStore, but got tag=null
+06-26 11:15:39.256   510   527 E AdbDebuggingManager: Expected keyStore, but got tag=null
+06-26 11:15:39.358  1242  1242 E bootstat: Failed to read /data/misc/bootstat/post_decrypt_time_elapsed: No such file or directory
+06-26 11:15:39.358  1242  1242 E bootstat: Failed to parse boot time record: /data/misc/bootstat/post_decrypt_time_elapsed
+06-26 11:15:39.360     0     0 E selinux : SELinux: Could not get canonical path for /sys/kernel/debug/tracing/instances/wifi restorecon: No such file or directory.
+06-26 11:15:39.368     0     0 E selinux :  
+06-26 11:15:39.422   667   667 E StatusBarSignalPolicy: Unexpected subscription 1
+06-26 11:15:39.698   510   623 E BackupPasswordManager: Unable to read backup pw version
+06-26 11:15:39.698   510   623 E BackupPasswordManager: Unable to read saved backup pw hash
+06-26 11:15:39.703   855   855 E ConnectivityManager: NetworkCallback was already registered
+06-26 11:15:39.932  1030  1030 E ContextImpl: Tried to access visual service WallpaperManager from a non-visual Context:android.app.Application@523879d Visual services, such as WindowManager, WallpaperService or LayoutInflater should be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen.
+06-26 11:15:39.932  1030  1030 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service WallpaperManager from a non-visual Context:android.app.Application@523879d
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1914)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.content.Context.getSystemService(Context.java:3705)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.uioverrides.WallpaperColorInfo.<init>(WallpaperColorInfo.java:55)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.uioverrides.WallpaperColorInfo.lambda$tLetMNUhFw-gX6-W-n47DqKz3p0(Unknown Source:2)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.uioverrides.-$$Lambda$WallpaperColorInfo$tLetMNUhFw-gX6-W-n47DqKz3p0.get(Unknown Source:0)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.util.MainThreadInitializedObject.lambda$get$0$MainThreadInitializedObject(MainThreadInitializedObject.java:50)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.util.-$$Lambda$MainThreadInitializedObject$31I13NSyZWlVLw9-SvduyHO4fhM.get(Unknown Source:4)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.util.TraceHelper.whitelistIpcs(TraceHelper.java:84)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.util.MainThreadInitializedObject.get(MainThreadInitializedObject.java:49)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.BaseDraggingActivity.onCreate(BaseDraggingActivity.java:90)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.Launcher.onCreate(Launcher.java:365)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.BaseQuickstepLauncher.onCreate(BaseQuickstepLauncher.java:83)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.launcher3.uioverrides.QuickstepLauncher.onCreate(QuickstepLauncher.java:98)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.Activity.performCreate(Activity.java:7994)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.Activity.performCreate(Activity.java:7978)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:15:39.932  1030  1030 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:15:39.958   647   647 E MediaBrowser: onConnectFailed for ComponentInfo{com.android.music/com.android.music.MediaPlaybackService}
+06-26 11:15:40.106  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:15:40.129  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:15:40.145  1132  1132 E SQLiteLog: (1) no such column: configTier in "SELECT configTier FROM Packages"
+06-26 11:15:40.408   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:40.408   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:40.608   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:40.608   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:41.006  1030  1030 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+06-26 11:15:41.042  1132  1132 E NanoAppLogging: Failed to begin contexthub communication
+06-26 11:15:41.090   510   542 E libprocessgroup: AddTidToCgroup failed to write '1630'; fd=66: Invalid argument
+06-26 11:15:41.090   510   542 E libprocessgroup: Failed to add task into cgroup
+06-26 11:15:41.143   286   286 E Netd    : Error adding route ::/0 -> fe80::2 radio0 to table 1017: File exists
+06-26 11:15:41.311  1030  1030 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+06-26 11:15:41.547   510   527 E GnssLocationProvider: IGnssConfiguration setEsExtensionSec() failed.
+06-26 11:15:41.547   510   527 E GnssConfiguration: Unable to set ES_EXTENSION_SEC: 0
+06-26 11:15:41.808  1132  1781 E ActivityThread: Failed to find provider info for instantapp-dev-manager
+06-26 11:15:42.124   510   542 E libprocessgroup: AddTidToCgroup failed to write '1913'; fd=66: Invalid argument
+06-26 11:15:42.124   510   542 E libprocessgroup: Failed to add task into cgroup
+06-26 11:15:43.047  1200  1595 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/current_modules_init.pb: open failed: ENOENT (No such file or directory)
+06-26 11:15:43.085  1200  1596 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.car [CONTEXT service_id=231 ]
+06-26 11:15:43.091   510  1574 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+06-26 11:15:43.091   510  1574 E PackageDexUsage: Unsupported context?
+06-26 11:15:43.166  1200  1596 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.games [CONTEXT service_id=231 ]
+06-26 11:15:43.167  1200  1596 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.mobile_data_plan [CONTEXT service_id=231 ]
+06-26 11:15:43.168  1200  1596 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.signin [CONTEXT service_id=231 ]
+06-26 11:15:43.169  1200  1596 E PhenotypeRegOp: Attempting to overwrite config package for com.google.android.gms.udc [CONTEXT service_id=231 ]
+06-26 11:15:43.170  1200  1599 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+06-26 11:15:43.202   286   286 E Netd    : no such netId 101
+06-26 11:15:43.203   510   605 E ConnectivityService: Exception adding interface: java.lang.IllegalStateException: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-26 11:15:43.203   286   286 E Netd    : no such netId 101
+06-26 11:15:43.246   286   286 E Netd    : no such netId 101
+06-26 11:15:43.246   510   605 E ConnectivityService: Exception in networkAddRouteParcel for non-gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-26 11:15:43.246   510   605 E ConnectivityService: Exception in networkAddRouteParcel for gateway: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+06-26 11:15:43.246   286   286 E Netd    : no such netId 101
+06-26 11:15:43.361   510   601 E WifiVendorHal: stopRssiMonitoring(l.2100) failed {.code = ERROR_NOT_AVAILABLE, .description = }
+06-26 11:15:43.643  1132  2260 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 11:15:43.702  1132  2270 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+06-26 11:15:44.076  1132  1132 E GmsRequestQueue: Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+06-26 11:15:44.094  1200  2331 E GmsRequestQueue: Tried to stop global GMSCore RequestQueue. This is likely unintended, so ignoring.
+06-26 11:15:44.138  1132  1658 E EasyUnlock: [EasyUnlockSupportReporterIntentOperation] Invalid account list.
+06-26 11:15:44.169  1132  1601 E EasyUnlock: [HostValidator] Invalid account list.
+06-26 11:15:44.209   286   286 E Netd    : Error adding route ::/0 -> fe80::2 wlan0 to table 1015: File exists
+06-26 11:15:44.357  1200  1728 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 1056768)
+06-26 11:15:44.520  1200  1728 E gle.android.gm: Invalid ID 0x00000000.
+06-26 11:15:44.538  1200  1728 E gle.android.gm: Invalid ID 0x00000000.
+06-26 11:15:44.692  1200  2326 E MagicTether: [MagicTetherInitializer] Invalid account list.
+06-26 11:15:44.905  1200  1730 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:15:45.030   510   854 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+06-26 11:15:45.030   510   854 E PackageDexUsage: Unsupported context?
+06-26 11:15:45.243  1200  1595 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: Error retrieving account [CONTEXT service_id=79 ]
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: java.lang.IllegalStateException: No current tap-and-pay account
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at asjt.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at asjt.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):1)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at com.google.android.gms.tapandpay.secard.SeTransactionSyncTaskOperation.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):80)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):1)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at asvn.e(:com.google.android.gms@201817022@20.18.17 (040700-311416286):6)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at asvn.a(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at com.google.android.gms.tapandpay.init.TapAndPayInitIntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):3)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):2)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at qgf.onHandleIntent(:com.google.android.gms@201817022@20.18.17 (040700-311416286):4)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at cui.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):5)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at cuh.run(:com.google.android.gms@201817022@20.18.17 (040700-311416286):9)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-26 11:15:45.413  1132  1627 E SeTransactionSyncTaskOp: 	at java.lang.Thread.run(Thread.java:923)
+06-26 11:15:45.986   510   854 E PackageManager: Unknown package: com.google.android.googlequicksearchbox
+06-26 11:15:47.981  1313  2545 E MultiDisplayService: invalid parameters for add/modify display
+06-26 11:15:48.281   647  1022 E bt_btm  : BTM_BleObserve Observe Already Active
+06-26 11:16:00.429   647  1022 E bt_btm  : BTM_BleObserve Observe Already Active
+06-26 11:16:09.572   510   601 E WifiHealthMonitor:  Hit PackageManager exception
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: com.google.android.wifi
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:206)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:178)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:545)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:477)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:468)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.access$200(WifiHealthMonitor.java:70)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:163)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:239)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:16:09.572   510   601 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+06-26 11:16:10.497   510   539 E libprocessgroup: Failed to kill process cgroup uid 10062 pid 1849 in 2404ms, 1 processes remain
+06-26 11:18:55.811   510   539 E libprocessgroup: Failed to kill process cgroup uid 10084 pid 1914 in 1923ms, 1 processes remain
+06-26 11:19:18.118   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:19:18.118   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:19:18.125   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:19:18.126   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:19:43.882  1200  2697 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:20:18.128   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:20:18.128   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:20:18.140   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:20:18.140   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:20:43.929  1200  2728 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:21:18.166   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:21:18.166   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:21:18.195   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:21:18.195   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:21:43.974  1200  2745 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:22:18.227   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:22:18.227   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:22:18.227   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:22:18.227   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:22:44.048  1200  2760 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:23:18.287   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:23:18.287   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:23:18.287   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:23:18.287   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:23:26.663   179   179 E SELinux : avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack sid=u:r:gmscore_app:s0:c512,c768 pid=1132 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+06-26 11:23:26.663  1132  2775 E memtrack: Couldn't load memtrack module
+06-26 11:23:27.082   179   179 E SELinux : avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack sid=u:r:gmscore_app:s0:c512,c768 pid=1200 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+06-26 11:23:27.082  1200  2776 E memtrack: Couldn't load memtrack module
+06-26 11:23:31.524   179   179 E SELinux : avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack sid=u:r:gmscore_app:s0:c512,c768 pid=2276 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+06-26 11:23:31.524  2276  2777 E memtrack: Couldn't load memtrack module
+06-26 11:23:44.062  1200  2781 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:24:18.300   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:24:18.300   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:24:18.349   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:24:18.349   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:25:18.361   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:25:18.361   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:25:18.410   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:25:18.410   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:26:18.366   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:26:18.367   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:26:18.428   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:26:18.428   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:27:18.426   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:27:18.426   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:27:18.483   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:27:18.483   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:27:21.242  1132  2260 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 11:28:18.487   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:28:18.487   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:28:18.500   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:28:18.500   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:29:18.500   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:29:18.500   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:29:18.508   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:29:18.508   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:30:18.500   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:30:18.501   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:30:18.517   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:30:18.517   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:31:18.508   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:31:18.508   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:31:18.578   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:31:18.578   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:32:18.508   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:32:18.508   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:32:18.638   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:32:18.638   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:33:18.568   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:33:18.568   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:33:18.650   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:33:18.650   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:34:18.583   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:34:18.584   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:34:18.710   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:34:18.710   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:35:18.600   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:35:18.600   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:35:18.771   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:35:18.771   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:36:11.248  1132  2807 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 11:36:11.418  1132  2821 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+06-26 11:36:18.661   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:36:18.661   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:36:18.774   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:36:18.774   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:37:18.667   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:37:18.667   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:37:18.783   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:37:18.783   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:38:18.668   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:38:18.668   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:38:18.800   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:38:18.800   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:39:18.728   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:39:18.729   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:39:18.861   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:39:18.861   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:40:18.788   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:40:18.788   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:40:18.903   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:40:18.903   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:41:18.838   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:41:18.838   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:41:18.908   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:41:18.908   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:42:18.850   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:42:18.850   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:42:18.965   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:42:18.965   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:43:18.910   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:43:18.910   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:43:18.983   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:43:18.983   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:44:18.970   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:44:18.970   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:44:19.017   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:44:19.017   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:45:19.030   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:45:19.030   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:45:19.033   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:45:19.033   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:46:19.090   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:46:19.090   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:46:19.090   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:46:19.090   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:47:19.150   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:47:19.150   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:47:19.150   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:47:19.150   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:48:19.173   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:48:19.173   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:48:19.210   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:48:19.210   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:48:41.967   647  1022 E bt_btm  : BTM_BleObserve Observe not active
+06-26 11:49:19.175   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:49:19.175   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:49:19.211   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:49:19.211   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:50:19.181   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:50:19.181   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:50:19.271   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:50:19.271   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:50:21.867  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 11:51:04.356  1200  2514 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:51:19.188   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:51:19.188   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:51:19.332   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:51:19.332   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:52:19.194   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:52:19.194   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:52:19.392   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:52:19.392   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:53:10.586   425   567 E installd: Couldn't opendir /data/app/vmdl2029255995.tmp: No such file or directory
+06-26 11:53:10.586   425   567 E installd: Failed to delete /data/app/vmdl2029255995.tmp: No such file or directory
+06-26 11:53:10.614  1963  2878 E BackupHelper: Could not parse delayed permissions
+06-26 11:53:10.614  1963  2878 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:492)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:636)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:338)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:413)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:407)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4$PermissionControllerServiceImpl(Unknown Source:0)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at com.android.permissioncontroller.permission.service.-$$Lambda$PermissionControllerServiceImpl$mE7NqZpMEJTKa_y63m6czFzewlg.run(Unknown Source:8)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at java.lang.Thread.run(Thread.java:923)
+06-26 11:53:10.614  1963  2878 E BackupHelper: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.Linux.open(Native Method)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:478)
+06-26 11:53:10.614  1963  2878 E BackupHelper: 	... 11 more
+06-26 11:53:10.859  1200  1599 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+06-26 11:53:10.944  1200  2913 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:53:19.197   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:53:19.197   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:53:19.450   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:53:19.450   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:53:24.876  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:53:24.937   510   842 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 11:53:24.946   510   842 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 11:53:25.854  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:53:25.865  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:53:28.879   510   553 E PermissionMonitor: unknown permission type: -1for uid: 10122
+06-26 11:53:28.901   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 11:53:29.067   292   332 E FMQ     : grantorIdx must be less than 3
+06-26 11:53:29.069   292   332 E FMQ     : grantorIdx must be less than 3
+06-26 11:53:29.111   375   453 E FMQ     : grantorIdx must be less than 3
+06-26 11:53:29.111   375   453 E FMQ     : grantorIdx must be less than 3
+06-26 11:53:29.605  2883  2883 E ContextImpl: Tried to access visual service WindowManager from a non-visual Context:com.android.packageinstaller.PackageInstallerApplication@3825813 Visual services, such as WindowManager, WallpaperService or LayoutInflater should be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen.
+06-26 11:53:29.605  2883  2883 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service WindowManager from a non-visual Context:com.android.packageinstaller.PackageInstallerApplication@3825813
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1914)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.content.Context.getSystemService(Context.java:3705)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.widget.ToastPresenter.<init>(ToastPresenter.java:81)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.widget.Toast$TN.<init>(Toast.java:615)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.widget.Toast.<init>(Toast.java:167)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.widget.Toast.makeText(Toast.java:492)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.widget.Toast.makeText(Toast.java:480)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at com.android.packageinstaller.UninstallFinish.onReceive(UninstallFinish.java:89)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.app.ActivityThread.access$1400(ActivityThread.java:237)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:29.605  2883  2883 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.115  2949  2949 E ContextImpl: Tried to access visual service LayoutInflater from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54 Visual services, such as WindowManager, WallpaperService or LayoutInflater should be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen.
+06-26 11:53:30.115  2949  2949 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service LayoutInflater from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1914)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.from(LayoutInflater.java:282)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.115  2949  2949 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54UI constants, such as display metrics or window metrics, must be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: java.lang.IllegalArgumentException: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:510)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5317)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5467)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.ViewGroup.<init>(ViewGroup.java:697)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:774)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:928)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:948)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1002)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:657)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.121  2949  2949 E ViewConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.122  2949  2949 E ContextImpl: Tried to access visual service WindowManager from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54 Visual services, such as WindowManager, WallpaperService or LayoutInflater should be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen.
+06-26 11:53:30.122  2949  2949 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service WindowManager from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1914)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.content.Context.getSystemService(Context.java:3705)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.ViewConfiguration.<init>(ViewConfiguration.java:422)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:520)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.View.<init>(View.java:5317)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.View.<init>(View.java:5467)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.ViewGroup.<init>(ViewGroup.java:697)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.createView(LayoutInflater.java:774)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:928)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:948)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1002)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:657)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.122  2949  2949 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54UI constants, such as display metrics or window metrics, must be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: java.lang.IllegalArgumentException: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:510)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5317)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5467)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.ViewGroup.<init>(ViewGroup.java:697)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:774)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:928)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:948)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1002)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.126  2949  2949 E ViewConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54UI constants, such as display metrics or window metrics, must be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: java.lang.IllegalArgumentException: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:510)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5317)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5467)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.widget.ImageView.<init>(ImageView.java:195)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.widget.ImageView.<init>(ImageView.java:190)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.widget.ImageView.<init>(ImageView.java:186)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DropBadgeView.<init>(DropBadgeView.java:40)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1231)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1117)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.145  2949  2949 E ViewConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54UI constants, such as display metrics or window metrics, must be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: java.lang.IllegalArgumentException: Tried to access UI constants from a non-visual Context:com.android.documentsui.DocumentsApplication@b4d0d54
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:510)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5317)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.View.<init>(View.java:5467)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.widget.TextView.<init>(TextView.java:996)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.widget.TextView.<init>(TextView.java:990)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.widget.TextView.<init>(TextView.java:986)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createView(LayoutInflater.java:774)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:928)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:948)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1002)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1124)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:166)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:145)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:53:30.164  2949  2949 E ViewConfiguration: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:53:31.315   510  2547 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+06-26 11:53:31.315   510  2547 E PackageDexUsage: Unsupported context?
+06-26 11:53:56.039   425   567 E installd: Couldn't opendir /data/app/vmdl1255441787.tmp: No such file or directory
+06-26 11:53:56.039   425   567 E installd: Failed to delete /data/app/vmdl1255441787.tmp: No such file or directory
+06-26 11:53:56.106  1200  1599 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+06-26 11:53:56.151  1200  3229 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:54:19.257   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:54:19.257   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:54:19.456   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:54:19.456   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:54:36.911  1030  1393 E FrameEvents: updateAcquireFence: Did not find frame.
+06-26 11:54:36.920   510  1005 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 11:54:36.921   510  1005 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 11:54:39.891   510   553 E PermissionMonitor: unknown permission type: -1for uid: 10123
+06-26 11:54:39.926   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 11:54:39.965  2883  2883 E ContextImpl: Tried to access visual service WindowManager from a non-visual Context:com.android.packageinstaller.PackageInstallerApplication@3825813 Visual services, such as WindowManager, WallpaperService or LayoutInflater should be accessed from Activity or other visual Context. Use an Activity or a Context created with Context#createWindowContext(int, Bundle), which are adjusted to the configuration and visual bounds of an area on screen.
+06-26 11:54:39.965  2883  2883 E ContextImpl: java.lang.IllegalAccessException: Tried to access visual service WindowManager from a non-visual Context:com.android.packageinstaller.PackageInstallerApplication@3825813
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:1914)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:803)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.content.Context.getSystemService(Context.java:3705)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.widget.ToastPresenter.<init>(ToastPresenter.java:81)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.widget.Toast$TN.<init>(Toast.java:615)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.widget.Toast.<init>(Toast.java:167)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.widget.Toast.makeText(Toast.java:492)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.widget.Toast.makeText(Toast.java:480)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at com.android.packageinstaller.UninstallFinish.onReceive(UninstallFinish.java:89)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4032)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.app.ActivityThread.access$1400(ActivityThread.java:237)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.os.Looper.loop(Looper.java:223)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at java.lang.reflect.Method.invoke(Native Method)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+06-26 11:54:39.965  2883  2883 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+06-26 11:54:40.115   510   542 E libprocessgroup: AddTidToCgroup failed to write '3283'; fd=66: Invalid argument
+06-26 11:54:40.115   510   542 E libprocessgroup: Failed to add task into cgroup
+06-26 11:55:19.318   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:55:19.318   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:55:19.504   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:55:19.504   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:56:12.647   425   567 E installd: Couldn't opendir /data/app/vmdl661072183.tmp: No such file or directory
+06-26 11:56:12.647   425   567 E installd: Failed to delete /data/app/vmdl661072183.tmp: No such file or directory
+06-26 11:56:12.696  1200  1599 E GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+06-26 11:56:12.737  1200  3305 E ConfigFileUtils: Failed to read config file: /data/user_de/0/com.google.android.gms/app_chimera/next_container.pb: open failed: ENOENT (No such file or directory)
+06-26 11:56:19.379   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:56:19.379   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:56:19.557   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:56:19.558   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:57:19.438   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:57:19.438   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:57:19.618   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:57:19.618   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:58:11.921  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 11:58:19.441   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:58:19.441   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:58:19.628   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:58:19.628   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 11:59:19.444   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 11:59:19.444   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 11:59:19.649   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 11:59:19.649   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:00:19.500   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:00:19.500   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:00:19.710   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:00:19.710   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:01:19.526   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:01:19.526   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:01:19.716   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:01:19.716   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:02:19.583   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:02:19.583   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:02:19.755   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:02:19.755   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:03:19.587   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:03:19.587   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:03:19.783   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:03:19.783   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:04:19.647   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:04:19.647   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:04:19.843   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:04:19.843   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:05:19.700   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:05:19.700   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:05:19.903   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:05:19.903   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:06:01.985  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:06:08.838   208   208 E android.hardware.atrace@1.0-service: Failed to enable tracing on: /sys/kernel/debug/tracing/events/mdss/enable
+06-26 12:06:08.838   208   208 E android.hardware.atrace@1.0-service: Failed to enable tracing on: /sys/kernel/debug/tracing/events/sde/enable
+06-26 12:06:08.838   208   208 E android.hardware.atrace@1.0-service: Failed to enable tracing on: /sys/kernel/debug/tracing/events/mali_systrace/enable
+06-26 12:06:08.843   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/mdss/enable
+06-26 12:06:08.843   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/sde/enable
+06-26 12:06:08.843   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/mali_systrace/enable
+06-26 12:06:08.843   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/kmem/ion_alloc_buffer_start/enable
+06-26 12:06:08.844   208   208 E android.hardware.atrace@1.0-service: Failed to enable tracing on: /sys/kernel/debug/tracing/events/kmem/ion_alloc_buffer_start/enable
+06-26 12:06:08.844   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/mdss/enable
+06-26 12:06:08.844   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/sde/enable
+06-26 12:06:08.844   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/mali_systrace/enable
+06-26 12:06:08.844   208   208 E android.hardware.atrace@1.0-service: Failed to disable tracing on: /sys/kernel/debug/tracing/events/kmem/ion_alloc_buffer_start/enable
+06-26 12:06:09.329   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:06:09.329   364   364 E Layer   : [Surface(name=Task=8)/@0xe87fe93 - animation-leash#0] No local sync point found
+06-26 12:06:09.350   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:06:09.350   364   364 E Layer   : [Surface(name=Task=8)/@0xe87fe93 - animation-leash#0] No local sync point found
+06-26 12:06:11.659   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:06:19.718   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:06:19.718   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:06:19.928   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:06:19.928   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:06:34.757   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:06:37.937   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:06:42.136     0     0 E audit   : rate limit exceeded
+06-26 12:07:19.762   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:07:19.762   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:07:19.988   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:07:19.988   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:08:19.768   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:08:19.768   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:08:20.049   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:08:20.049   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:08:34.334   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:08:34.334   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:08:34.334   364   364 E Layer   : [Surface(name=Task=8)/@0xe87fe93 - animation-leash#0] No local sync point found
+06-26 12:08:34.334   364   364 E Layer   : [Surface(name=Task=8)/@0xe87fe93 - animation-leash#0] No local sync point found
+06-26 12:08:36.871   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:09:19.828   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:09:19.828   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:09:20.109   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:09:20.109   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:10:19.837   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:10:19.837   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:10:20.118   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:10:20.118   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:11:19.898   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:11:19.898   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:11:20.135   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:11:20.135   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:11:33.786   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:12:19.928   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:12:19.928   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:12:20.141   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:12:20.141   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:13:19.930   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:13:19.930   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:13:20.150   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:13:20.150   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:13:52.038  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:14:19.937   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:14:19.937   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:14:20.183   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:14:20.183   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:15:12.797     0     0 E audit   : rate limit exceeded
+06-26 12:15:19.938   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:15:19.938   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:15:20.187   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:15:20.187   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:15:45.750   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:15:45.750   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:15:45.750   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:15:45.751   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:15:45.768   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:15:45.768   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:15:48.323   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:16:19.934     0     0 E audit   : rate limit exceeded
+06-26 12:16:19.968   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:16:19.968   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:16:20.248   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:16:20.248   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:17:20.029   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:17:20.029   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:17:20.261   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:17:20.261   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:17:34.251   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:17:34.251   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:17:34.251   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:17:34.251   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:17:34.283   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:17:34.283   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:17:36.675   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:17:47.855   510  2547 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 12:17:47.856   510  2547 E VibratorService: Failed to issue command to vibrator HAL. Retrying.
+06-26 12:17:49.445  3345  3345 E DecorView[]: Destroying unexpected ActionMode instance of TYPE_PRIMARY; com.android.internal.app.WindowDecorActionBar$ActionModeImpl@7f408 was not the current primary action mode! Expected null
+06-26 12:18:20.033   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:18:20.033   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:18:20.282   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:18:20.282   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:19:20.053   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:19:20.053   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:19:20.289   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:19:20.289   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:20:20.090   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:20:20.090   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:20:20.295   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:20:20.295   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:21:20.100   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:21:20.100   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:21:20.300   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:21:20.300   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:21:42.092  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:21:43.600   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:21:43.600   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:21:43.600   364   364 E Layer   : [Surface(name=Task=12)/@0xf250d72 - animation-leash#0] No local sync point found
+06-26 12:21:43.600   364   364 E Layer   : [Surface(name=Task=12)/@0xf250d72 - animation-leash#0] No local sync point found
+06-26 12:21:47.019   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:22:14.734   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:22:14.734   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:22:17.279   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:22:20.101   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:22:20.101   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:22:20.316   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:22:20.317   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:22:36.068     0     0 E audit   : rate limit exceeded
+06-26 12:23:03.300   364   364 E Layer   : [Surface(name=Task=12)/@0xf250d72 - animation-leash#0] No local sync point found
+06-26 12:23:03.300   364   364 E Layer   : [Surface(name=Task=12)/@0xf250d72 - animation-leash#0] No local sync point found
+06-26 12:23:03.300   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:23:03.300   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:23:05.952   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:23:15.317   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:23:15.317   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:23:15.317   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:23:15.317   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:23:15.350   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:23:15.350   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:23:17.876   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:23:20.156   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:23:20.156   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:23:20.377   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:23:20.377   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:23:32.359   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:24:09.023   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:24:20.158   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:24:20.158   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:24:20.378   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:24:20.378   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:25:20.219   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:25:20.219   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:25:20.378   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:25:20.378   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:25:29.119   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:26:20.227   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:26:20.227   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:26:20.436   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:26:20.436   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:27:20.237   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:27:20.237   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:27:20.442   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:27:20.442   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:25:39.544   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:27:46.756   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:28:20.244   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:28:20.244   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:28:20.449   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:28:20.449   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:29:20.250   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:29:20.250   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:29:20.455   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:29:20.455   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:28:29.164   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:29:32.146  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:30:20.256   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:30:20.256   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:30:20.462   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:30:20.462   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:31:20.263   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:31:20.264   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:31:20.468   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:31:20.468   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:31:39.828   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:32:05.509   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:32:09.050   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:32:09.050   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:32:11.638   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:32:20.267   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:32:20.267   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:32:20.474   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:32:20.474   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:33:20.276   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:33:20.276   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:33:20.481   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:33:20.481   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:34:20.333   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:34:20.333   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:34:20.538   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:34:20.538   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:35:20.394   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:35:20.394   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:35:20.599   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:35:20.599   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:36:20.454   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:36:20.454   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:36:20.658   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:36:20.658   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:37:20.467   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:37:20.467   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:37:20.666   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:37:20.666   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:37:22.202  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:37:41.464   444   444 E OMXNodeInstance: getConfig(0xf46c0400:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+06-26 12:37:41.465   444   444 E OMXNodeInstance: getConfig(0xf46c0400:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-26 12:38:20.528   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:38:20.528   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:38:20.726   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:38:20.727   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:38:57.403     0     0 E audit   : rate limit exceeded
+06-26 12:39:20.588   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:39:20.588   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:39:20.786   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:39:20.786   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:40:20.649   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:40:20.649   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:40:20.837   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:40:20.837   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:41:20.708   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:41:20.708   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:41:20.898   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:41:20.898   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:42:20.716   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:42:20.716   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:42:20.958   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:42:20.958   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:42:54.634   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:42:54.634   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:42:57.222   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:43:04.567   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:43:20.718   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:43:20.718   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:43:21.019   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:43:21.019   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:44:20.733   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:44:20.733   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:44:21.067   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:44:21.067   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:44:31.664   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:44:38.108   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:44:39.533   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:44:39.533   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:44:39.533   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:44:39.533   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:44:39.567   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:44:39.567   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:44:42.088   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:45:12.255  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:45:20.733   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:45:20.734   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:45:21.084   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:45:21.084   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:46:13.882   444   465 E OMXNodeInstance: getConfig(0xf46c0ef0:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+06-26 12:46:13.882   444   465 E OMXNodeInstance: getConfig(0xf46c0ef0:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-26 12:46:20.792   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:46:20.792   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:46:21.144   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:46:21.144   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:47:20.853   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:47:20.853   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:47:21.206   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:47:21.206   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:47:48.652     0     0 E audit   : rate limit exceeded
+06-26 12:48:20.914   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:48:20.914   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:48:21.258   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:48:21.258   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:49:20.974   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:49:20.974   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:49:21.267   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:49:21.267   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:49:47.714   444   465 E OMXNodeInstance: getConfig(0xf46c01d0:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+06-26 12:49:47.714   444   465 E OMXNodeInstance: getConfig(0xf46c01d0:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-26 12:49:57.068  6474  6502 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 12:49:57.070  6474  6502 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 12:49:57.922  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:49:57.992  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:49:58.741  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:49:58.802  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:50:00.179  6474  6502 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 12:50:02.962     0     0 E audit   : rate limit exceeded
+06-26 12:50:21.035   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:50:21.035   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:50:21.325   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:50:21.325   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:51:21.058   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:51:21.058   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:51:21.338   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:51:21.338   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:51:24.212   444   465 E OMXNodeInstance: getConfig(0xf46c1820:google.h264.encoder, ConfigLatency(0x6f800005)) ERROR: Undefined(0x80001001)
+06-26 12:51:24.212   444   465 E OMXNodeInstance: getConfig(0xf46c1820:google.h264.encoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+06-26 12:51:26.792  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:26.876  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:27.736  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:27.759  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:28.559  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:28.619  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:29.504  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:29.595  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:29.804  6474  6502 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 12:51:29.805  6474  6502 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 12:51:34.283   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:51:34.283   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:51:34.283   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:51:34.283   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:51:36.968   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:51:38.143  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:38.283  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:39.056  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:39.099  3393  3393 E ndroid.damobil: Invalid ID 0x00000000.
+06-26 12:51:41.874     0     0 E audit   : rate limit exceeded
+06-26 12:52:21.067   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:52:21.067   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:52:21.398   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:52:21.398   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:53:02.308  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 12:53:21.121   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:53:21.121   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:53:21.458   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:53:21.458   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:54:21.138   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:54:21.138   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:54:21.519   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:54:21.519   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:54:31.867   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:54:31.867   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:54:31.867   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:54:31.867   364   364 E Layer   : [Surface(name=Task=10)/@0x2752897 - animation-leash#0] No local sync point found
+06-26 12:54:34.448   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:54:57.914   510   631 E ClipboardService: Denying clipboard access to com.deviantart.android.damobile, application is not in focus nor is it a system service for user 0
+06-26 12:55:10.933   364   364 E Layer   : [Surface(name=Task=9)/@0x4b7364d - animation-leash#0] No local sync point found
+06-26 12:55:10.933   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 12:55:13.611   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 12:55:21.186   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:55:21.186   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:55:21.580   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:55:21.580   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:56:21.247   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:56:21.247   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:56:21.640   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:56:21.640   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:57:21.307   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:57:21.308   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:57:21.700   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:57:21.700   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:58:21.368   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:58:21.368   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:58:21.760   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:58:21.760   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 12:59:21.378   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 12:59:21.378   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 12:59:21.768   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 12:59:21.768   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:00:21.395   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:00:21.395   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:00:21.768   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:00:21.768   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:00:52.361  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 13:01:21.455   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:01:21.455   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:01:21.786   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:01:21.786   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:02:21.516   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:02:21.516   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:02:21.792   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:02:21.792   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:03:21.577   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:03:21.577   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:03:21.795   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:03:21.795   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:04:21.638   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:04:21.638   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:04:21.855   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:04:21.855   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:05:21.654   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:05:21.654   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:05:21.915   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:05:21.915   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:06:21.677   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:06:21.677   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:06:21.975   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:06:21.975   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:07:21.711   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:07:21.711   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:07:22.035   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:07:22.035   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:08:21.747   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:08:21.747   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:08:22.095   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:08:22.095   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:08:42.414  1132  2808 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+06-26 13:09:21.749   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:09:21.749   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:09:22.155   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:09:22.155   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:10:21.798   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:10:21.798   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:10:22.216   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:10:22.216   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:11:21.850   475   475 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+06-26 13:11:21.850   475   475 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+06-26 13:11:22.218   486   486 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+06-26 13:11:22.218   486   486 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+06-26 13:12:00.910   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:01.427   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:01.729   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:04.833   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:07.733   364   364 E Layer   : [Surface(name=Task=13)/@0xecb1892 - animation-leash#0] No local sync point found
+06-26 13:12:07.733   364   364 E Layer   : [Surface(name=Task=13)/@0xecb1892 - animation-leash#0] No local sync point found
+06-26 13:12:07.733   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 13:12:07.733   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 13:12:07.767   364   364 E Layer   : [Surface(name=Task=13)/@0xecb1892 - animation-leash#0] No local sync point found
+06-26 13:12:07.767   364   364 E Layer   : [Surface(name=Task=1)/@0x82a5ed0 - animation-leash#0] No local sync point found
+06-26 13:12:09.647  7492  7492 E chromium: [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/com.google.android.gms/cache/WebView/Crashpad: No such file or directory (2)
+06-26 13:12:10.098  7492  7492 E ActivityThread: Failed to find provider info for com.google.android.setupwizard.partner
+06-26 13:12:11.104  7562  7640 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 13:12:11.105  7562  7640 E chromium: [ERROR:tile_manager.cc(793)] WARNING: tile memory limits exceeded, some content may not draw
+06-26 13:12:11.257   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:12.038  7492  7492 E chromium: [ERROR:web_contents_delegate.cc(218)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+06-26 13:12:12.038  7492  7492 E chromium: [ERROR:web_contents_delegate.cc(218)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+06-26 13:12:15.580   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:15.582   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-26 13:12:15.597  7492  7492 E chromium: [ERROR:aw_browser_terminator.cc(125)] Renderer process (7562) crash detected (code -1).
+06-26 13:12:18.627   510  1280 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
